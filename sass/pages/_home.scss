@@ -1,0 +1,411 @@
+h2 {
+    line-height: 33px;
+    margin: 0 0 27px 0;
+    text-transform: uppercase;
+}
+
+.wrap-about {
+    padding: 90px 0 65px;
+
+    .about-text {
+        line-height: 28px;
+        padding: 0 233px;
+    }
+.about-carousel-wrap {
+    margin-top: 68px;
+    border-top: 1px solid #e7eff1;
+    position: relative;
+    .owl-carousel {
+        padding: 55px 60px 0;
+        .item {
+            a {
+                display: inline-block;
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+
+    }
+    .owl-theme .owl-nav .owl-next {
+        background: url("../images/arrow-active.png") no-repeat center;
+        background-size: cover;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        right: 0;
+        top: 48px;
+        z-index: 10;
+
+    }
+    .owl-theme .owl-nav .owl-prev {
+        background: url("../images/arrow-left.png") no-repeat center;
+        background-size: cover;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        left: 0;
+        top: 48px;
+        z-index: 10;
+    }
+}
+
+    .button {
+        margin-top: 28px;
+    }
+
+}
+
+.wrap-features {
+    padding: 92px 0 0;
+    .block-features {
+        padding-bottom: 98px;
+        @include flexbox;
+        .block-features-left {
+            text-align: right;
+            width: 40%;
+            .text-part {
+                padding-right: 37px;
+            }
+        }
+        .block-fetures-right {
+            text-align: left;
+            width: 40%;
+            .text-part {
+                padding-left: 37px;
+            }
+        }
+        .logo-features {
+            width: 20%;
+        }
+        .features {
+            @include flexbox;
+            padding-bottom: 58px;
+            .text-part {
+                width: 92%;
+            }
+            h3 {
+                margin: 0 0 14px;
+            }
+            .text-features {
+                line-height: 28px;
+
+            }
+        }
+
+    }
+    .boost-business {
+        @include clearfix;
+        padding: 17px 0;
+        .text-boost {
+            float: left;
+            padding: 7px 0 0 36px;
+        }
+
+        .button {
+            float: right;
+            padding-right: 25px;
+            a {
+                padding: 7px 32px;
+            }
+        }
+
+    }
+
+}
+
+.wrap-projects {
+    padding: 94px 0;
+    .block-projects {
+        h3 {
+            padding: 38px 0 20px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        @include flexbox;
+        .banking {
+            text-align: left;
+            position: relative;
+            width: 31.5%;
+
+            img {
+                width: auto;
+            }
+            .button-small {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                z-index: 10;
+            }
+        }
+        .text-project {
+            line-height: 26px;
+            padding-bottom: 45px;
+        }
+        .text-block-project {
+            margin-top: -1px;
+            padding: 0 5px 0 29px;
+            background-color: #f6961b;
+        }
+
+        .real-estate {
+            text-align: left;
+            width: 67.5%;
+            padding-left: 30px;
+            .estate-img {
+                img {
+                    width: auto;
+                }
+            }
+            .item {
+                position: relative;
+            }
+            .button-small {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                z-index: 10;
+            }
+            .estate-carousel {
+                .owl-dots {
+                    position: absolute;
+                    z-index: 10;
+                    bottom: 21px;
+                    right: 27px;
+                }
+            }
+
+            .text-block-project {
+                border: 1px solid #dae5e8;
+                border-top: none;
+                padding: 0 100px 0 29px;
+                background-color: inherit;
+            }
+            .text-project {
+                line-height: 26px;
+                padding-bottom: 45px;
+            }
+
+        }
+    }
+
+    .button {
+        margin-top: 44px;
+        padding: 7px 28px;
+    }
+
+}
+
+.wrap-services {
+    padding: 96px 0 92px;
+    .block-services {
+        padding-top: 26px;
+        @include flexbox;
+        .service {
+            position: relative;
+            text-align: left;
+            width: 33.3%;
+            @include flexbox;
+            align-content: flex-end;
+            .block-text-service {
+                padding-top: 88px;
+                line-height: 28px;
+            }
+            .img-service {
+                position: absolute;
+                z-index: 10;
+                top: 0;
+                left: 0;
+            }
+            h3 {
+                text-transform: uppercase;
+                margin: 0 0 18px 0;
+            }
+            .text-service {
+                padding-right: 55px;
+            }
+            a {
+                color: inherit;
+                display: block;
+                &:hover {
+                    text-decoration: none;
+                }
+                &:hover h3 {
+                    color: #f6961b;
+                }
+            }
+        }
+    }
+    .button {
+        margin-top: 43px;
+        a {
+            padding: 7px 31px;
+        }
+    }
+}
+
+.wrap-testimonials {
+    padding: 0 0 92px 0;
+    text-align: center;
+    .back-quote {
+        background: url("../images/quote-icon.png") no-repeat left top;
+        padding-top: 95px;
+        ul {
+            margin: 0;
+            padding: 8px 0 0 0;
+            list-style-type: none;
+            li {
+                display: inline-block;
+            }
+        }
+        .text-testimonials {
+            padding-top: 35px;
+            line-height: 28px;
+            &:after {
+                float: right;
+                content: '';
+                background: url("../images/quote-icon-small.png") no-repeat center;
+                background-size: cover;
+                display: block;
+                width: 30px;
+                height: 21px;
+                margin-top: 26px;
+            }
+
+        }
+        .name-client {
+            line-height: 33px;
+            text-transform: uppercase;
+            clear: right;
+            &:before {
+                content: '';
+                width: 17px;
+                height: 2px;
+                background-color: #ffffff;
+                display: block;
+                margin: 0 auto 20px;
+            }
+        }
+        .designation {
+            line-height: 27px;
+        }
+
+    }
+}
+
+.wrap-blog {
+    padding: 94px 0 92px;
+    h2 {
+        margin: 0 0 41px 0;
+    }
+    .block-blog {
+        @include flexbox
+    }
+    .page-left {
+        border-top: 3px solid #16d428;
+        width: 51%;
+        box-shadow: 0 0 70px #d4e2e5;
+        @include clearfix;
+        img {
+            float: left;
+            max-width: 100%;
+        }
+        .text-blog {
+            line-height: 28px;
+            padding: 0 60px 0 245px;
+        }
+    }
+
+    .page-right {
+        border-top: 3px solid #ffac56;
+        width: 49%;
+        .text-blog {
+            padding: 0 70px 0 55px;
+            line-height: 28px;
+        }
+
+    }
+    .date {
+        line-height: 28px;
+        padding-top: 35px;
+    }
+    h3 {
+        margin: 2px 0 25px;
+    }
+
+}
+
+.wrap-contact {
+    padding: 92px 0 100px;
+    .block-contact {
+        @include flexbox;
+        .contact {
+            width: 33.3%;
+            text-align: left;
+            h3 {
+                text-transform: uppercase;
+                margin: 0 0 5px 0;
+            }
+        }
+        .icon-email {
+            padding: 39px 0;
+            border: 1px solid #e1eaec;
+            margin-right: 32px;
+            display: block;
+            cursor: pointer;
+            &:hover{
+                text-decoration: none;
+            }
+            &:before {
+                content: '';
+                background: url("../images/icon-email.png") no-repeat center;
+                background-size: cover;
+                width: 58px;
+                height: 59px;
+                display: block;
+                float: left;
+                margin: 0 43px 0 35px;
+            }
+        }
+        .icon-career {
+            padding: 39px 0;
+            border: 1px solid #e1eaec;
+            display: block;
+            cursor: pointer;
+            &:hover {
+                text-decoration: none;
+            }
+            &:before {
+                content: '';
+                background: url("../images/icon-career.png") no-repeat center;
+                background-size: cover;
+                width: 56px;
+                height: 56px;
+                display: block;
+                float: left;
+                margin: 0 43px 0 35px;
+            }
+        }
+        .icon-call {
+            padding: 39px 0;
+            border: 1px solid #e1eaec;
+            margin-right: 32px;
+            display: block;
+            cursor: pointer;
+            &:hover{
+                text-decoration: none;
+            }
+            &:before {
+                content: '';
+                background: url("../images/icon-call.png") no-repeat center;
+                background-size: cover;
+                width: 56px;
+                height: 44px;
+                display: block;
+                float: left;
+                margin: 0 43px 0 35px;
+            }
+        }
+    }
+
+}

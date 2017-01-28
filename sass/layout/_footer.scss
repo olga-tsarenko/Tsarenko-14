@@ -1,0 +1,156 @@
+footer {
+    padding: 95px 0 60px;
+    .block-foot {
+        padding-bottom: 85px;
+        @include flexbox;
+        border-bottom: 1px solid #323334;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            a {
+                line-height: 30px;
+                text-transform: uppercase;
+                &:hover {
+                    color: #838b8c;
+                    text-decoration: none;
+                }
+            }
+        }
+        h3 {
+            margin: 0 0 35px 0;
+            text-transform: uppercase;
+        }
+        .logo-foot {
+            width: 34%;
+            padding-top: 95px;
+            text-align: left;
+        }
+        .navigation {
+            width: 15%;
+            padding-left: 2px;
+            text-align: left;
+        }
+        .industry {
+            width: 15%;
+            padding-left: 32px;
+            text-align: left;
+        }
+        .newsletter {
+            width: 36%;
+            padding-left: 65px;
+            text-align: left;
+        }
+        form {
+            padding-top: 5px;
+            label {
+                line-height: 24px;
+                margin-bottom: 35px;
+
+            }
+            input[type='button'] {
+                border-radius: 27px;
+                text-transform: uppercase;
+                padding: 16px 23px;
+                border: none;
+                margin-left: -50px;
+            }
+            input[type='text']{
+               padding: 16px 50px 16px 34px;
+                border: none;
+                border-radius: 27px;
+            }
+            input:focus::-webkit-input-placeholder {
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                border: none;
+
+            }
+            input:focus::-webkit-input-placeholder {
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                border: none;
+                outline: none;
+
+            }
+
+            input:focus::-moz-placeholder {
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                border: none;
+                outline: none;
+
+            }
+
+            input:focus:-moz-placeholder {
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                border: none;
+                outline: none;
+            }
+
+            input:focus:-ms-input-placeholder {
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                border: none;
+                outline: none;
+            }
+
+            input:focus, input:active {
+                transition: opacity 0.3s ease;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+
+    .block-bottom-foot{
+        padding: 22px 0;
+        @include clearfix;
+        .copyright{
+            float: left;
+            padding-top: 2px;
+        }
+        .social{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            float: right;
+            @include clearfix;
+            li{
+                padding: 0 20px;
+                float: left;
+                text-transform: uppercase;
+                &:nth-child(1){
+                    color: #385da5;
+                    padding-left: 0;
+                }
+                &:nth-child(2){
+                    color: #00b5da;
+                }
+                &:nth-child(3){
+                    color: #d4c5a8;
+                }
+                &:nth-child(4){
+                    color: #1883bb;
+                }
+                &:nth-child(5){
+                    color: #e4463b;
+                    padding-right: 0;
+                }
+                a {
+                    color: inherit;
+                    line-height: 30px;
+                    text-transform: uppercase;
+                    &:hover {
+                        color: #f6961b;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+}

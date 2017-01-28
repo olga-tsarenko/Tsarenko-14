@@ -1,0 +1,188 @@
+.wrapper {
+    font-family: 'Domine', serif;
+}
+
+header {
+    a {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+    .number-phone {
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
+    .title-header {
+        font-family: 'Montserrat', sans-serif;
+        h1 {
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .choose {
+            font-size: 48px;
+            font-weight: 700;
+
+        }
+    }
+    .choose-industry {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.wrap-about {
+
+    .about-text {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .button {
+        margin-top: 30px;
+    }
+}
+
+h3 {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrap-features {
+    .text-features {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .text-boost {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+}
+
+.wrap-projects {
+    h3 {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        .text-project {
+            font-size: 15px;
+            font-weight: 400;
+
+        }
+
+    }
+}
+
+.wrap-services {
+    h3 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .text-service {
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+.text-testimonials {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.name-client {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.designation {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.date {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.text-blog {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.wrap-contact {
+    h3 {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .text-contact {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+footer {
+    h3 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    ul {
+        a {
+            font-size: 13px;
+            font-weight: 400;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+    form {
+        label {
+            font-size: 15px;
+            font-weight: 400;
+        }
+        input[type='button'] {
+            font-size: 15px;
+            font-weight: 400;
+            font-family: 'Montserrat', sans-serif;
+        }
+        ::-webkit-input-placeholder {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 400;
+
+        }
+        ::-moz-placeholder {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+        :-ms-input-placeholder {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+
+    }
+
+    .copyright{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .social{
+        font-weight: 400;
+        font-size: 13px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}

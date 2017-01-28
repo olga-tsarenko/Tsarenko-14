@@ -1,0 +1,118 @@
+.wrapper {
+    background-color: white;
+    color: #838b8c;
+}
+
+header {
+    .number-phone {
+        color: #e2e2e2;
+    }
+    .title-header {
+        color: white;
+    }
+    .item {
+        color: white;
+    }
+}
+
+h2 {
+    color: #343a3b;
+}
+
+.wrap-features {
+    background-color: #e7eff1;
+    .boost-business {
+        background-color: #565d5d;
+        color: #ffffff;
+    }
+}
+
+h3 {
+    color: #343a3b;
+
+}
+
+.wrap-projects {
+    .banking {
+        h3 {
+            color: #ffffff;
+        }
+        .text-project {
+            color: #ffffff;
+        }
+    }
+
+}
+
+.wrap-services {
+    background-color: #fffaf3;
+}
+
+.wrap-testimonials {
+    background-color: #03b6e7;
+    h2 {
+        color: white;
+    }
+    .text-testimonials {
+        color: #ddf8ff;
+    }
+    .name-client {
+        color: white;
+    }
+    .designation {
+        color: white;
+    }
+
+}
+
+.wrap-blog {
+    background-color: #e7eff1;
+    .block-blog {
+        background-color: #ffffff;
+    }
+    .date {
+        color: #343a3b;
+    }
+    h3 {
+        color: #343a3b;
+    }
+}
+
+.text-contact {
+    color: #343a3b;
+}
+
+footer {
+    background-color: #262829;
+    color: #838b8c;
+    h3 {
+        color: #e1e1e1;
+    }
+    ul {
+        a {
+            color: #838b8c;
+        }
+        label {
+            color: #838b8c;
+        }
+
+    }
+    input[type='button'] {
+        background-color: #16d428;
+        color: white;
+    }
+    input[type='text'] {
+        background-color: #323334;
+        color: white;
+    }
+    ::-webkit-input-placeholder {
+        color: #5e5e5e;
+    }
+    ::-moz-placeholder {
+        color: #5e5e5e;
+    }
+    :-ms-input-placeholder {
+        color: #5e5e5e;
+    }
+
+}

@@ -1,0 +1,120 @@
+.width {
+    max-width: 1140px;
+}
+
+header {
+    background: url("../images/head-back.png") no-repeat top;
+    background-size: cover;
+    padding: 40px 0 68px;
+    text-align: center;
+    a {
+        color: inherit;
+        display: inline-block;
+        &:hover, &:focus {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    .head {
+        @include clearfix;
+
+    }
+    .navbar-default {
+        background: inherit;
+        border: none;
+    }
+    .a-logo-phone{
+        padding-top: 7px;
+    }
+    .logo-phone {
+        background: url("../images/phone.png") no-repeat center;
+        background-size: cover;
+        width: 21px;
+        height: 21px;
+        margin: auto;
+    }
+    .sms {
+        background: url("../images/sms.png") no-repeat center;
+        background-size: cover;
+        display: inline-block;
+        width: 31px;
+        height: 31px;
+    }
+
+    .phone {
+        float: right;
+        display: flex;
+        margin: auto;
+        padding-top: 7px;
+    }
+
+    .number-phone {
+        display: inline-block;
+        margin: 0 22px 0 10px;
+        line-height: 36px;
+
+    }
+
+    .navbar-default .nav-head {
+        padding-left: 74px;
+        li {
+            a {
+                padding: 10px 15px;
+                line-height: 30px;
+                text-transform: uppercase;
+                color: #e2e2e2;
+            }
+        }
+
+        li {
+            a:hover, a:focus, a:active {
+                color: #ffac55;;
+            }
+
+        }
+
+    }
+
+    .title-header {
+        padding: 160px 0 60px;
+        text-transform: uppercase;
+        h1 {
+            margin: 0 0 25px;
+        }
+    }
+
+    .owl-carousel .owl-item img{
+        @include flexbox;
+        margin: auto;
+        width: auto;
+    }
+
+    .item {
+        @include flexbox;
+        width: 262px;
+        height: 282px;
+        background-color: #03b6e7;
+        &:hover {
+            background-color: #f6961b;
+        }
+
+        a {
+            margin: auto;
+            text-decoration: none;
+            text-align: center;
+            .slider-icon {
+                img {
+                    max-width: 100%;
+                }
+
+            }
+            .choose-industry {
+                text-transform: uppercase;
+                line-height: 60px;
+            }
+        }
+
+    }
+
+}

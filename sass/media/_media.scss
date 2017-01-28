@@ -1,0 +1,586 @@
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .width {
+        padding: 0 10px;
+    }
+    header {
+        .navbar-default .nav-head {
+            padding-left: 20px;
+        }
+        a {
+            font-size: 12px;
+        }
+    }
+    .wrap-about {
+        .about-text {
+            padding: 0 100px;
+        }
+    }
+
+    .wrap-projects {
+        .block-projects {
+            .banking {
+                width: 100%;
+                @include flexbox;
+                margin: 0 auto;
+                max-width: 749px;
+                .img-banking {
+                    width: 50%;
+                }
+                .text-block-project {
+                    width: 50%;
+                }
+            }
+            .real-estate {
+                width: 100%;
+                padding: 0;
+                margin-top: 20px;
+                .estate-carousel {
+                    width: auto;
+                    max-width: 749px;
+                    margin: 0 auto;
+                }
+                .text-block-project {
+                    width: auto;
+                    max-width: 749px;
+                    margin: 0 auto;
+                }
+
+            }
+        }
+    }
+    .wrap-contact {
+        .block-contact {
+
+            .icon-email:before, .icon-call:before, .icon-career:before {
+                margin: 0 15px;
+            }
+        }
+    }
+
+    .wrap-blog {
+        .page-left {
+            .text-blog {
+                line-height: 28px;
+                padding: 0 60px 0 211px;
+            }
+        }
+    }
+
+    footer {
+        .block-foot {
+            form input[type='button'] {
+                display: block;
+                margin: 0;
+            }
+            input[type='text'] {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 760px) and (max-width: 999px) {
+    .width {
+        padding: 0 10px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    header {
+        .phone {
+            float: left;
+        }
+        .title-header {
+            padding: 60px 0;
+        }
+        .logo {
+            float: left;
+        }
+        .item {
+            margin: 0 auto;
+        }
+        .navbar-default .nav-head {
+            padding-left: 20px;
+            li a {
+                text-align: left;
+            }
+        }
+        a {
+            font-size: 12px;
+        }
+    }
+    .wrap-about {
+        .about-text {
+            padding: 0 60px;
+        }
+    }
+
+    .wrap-features {
+        padding: 60px 0;
+        position: relative;
+        .block-features {
+            .features {
+                .text-features {
+                    font-size: 12px;
+                }
+                .img-features {
+                    width: 15%;
+                }
+                .text-part {
+                    width: 85%;
+                }
+            }
+            .block-features-left {
+                width: 50%;
+                .text-part {
+                    padding-right: 10px;
+                    order: 2;
+                }
+                .img-features {
+                    order: 1;
+                }
+            }
+            .logo-features {
+                position: absolute;
+                z-index: 10;
+                width: 20%;
+                top: 0;
+                left: 0;
+            }
+            .block-features-right {
+                width: 50%;
+                padding-left: 30px;
+                .text-part {
+                    padding-left: 10px;
+                }
+            }
+        }
+
+    }
+
+    .wrap-projects {
+        .block-projects {
+            .banking {
+                width: 100%;
+                @include flexbox;
+                margin: 0 auto;
+                max-width: 749px;
+                .img-banking {
+                    width: 50%;
+                }
+                .text-block-project {
+                    width: 50%;
+                }
+            }
+            .real-estate {
+                width: 100%;
+                padding: 0;
+                margin-top: 20px;
+                .estate-carousel {
+                    width: auto;
+                    max-width: 749px;
+                    margin: 0 auto;
+                }
+                .text-block-project {
+                    width: auto;
+                    max-width: 749px;
+                    margin: 0 auto;
+                }
+
+            }
+        }
+    }
+
+    .wrap-services {
+        padding: 60px 0;
+        .block-services {
+            .service {
+                width: 50%;
+                margin: 0 auto;
+                &:last-child {
+                    margin-top: 25px;
+                }
+                &:first-child {
+                    padding-right: 20px;
+                }
+                .text-service {
+                    padding: 0;
+                }
+            }
+        }
+    }
+    .wrap-contact {
+        .block-contact {
+            .icon-email, .icon-call, .icon-career {
+                text-align: center;
+            }
+            .icon-email:before, .icon-call:before, .icon-career:before {
+                margin: 0 auto;
+
+            }
+            .text-contact {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .wrap-blog {
+        .page-left {
+            .text-blog {
+                line-height: 28px;
+                padding: 0 10px 0 211px;
+            }
+        }
+        .page-right {
+            .text-blog {
+                line-height: 28px;
+                padding: 0 20px;
+            }
+        }
+    }
+
+    footer {
+        .block-foot {
+            padding-bottom: 50px;
+            .logo-foot, .navigation, .industry, .newsletter {
+                width: 100%;
+                padding: 0;
+                text-align: center;
+                h3 {
+                    margin: 0 0 25px 0;
+                }
+            }
+            .navigation, .industry {
+                margin-top: 20px;
+                ul {
+                    li {
+                        display: inline-block;
+                        padding-right: 25px;
+                        a {
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+            }
+            .newsletter {
+                margin-top: 25px;
+            }
+
+            form input[type='button'] {
+                display: block;
+                margin: 0 auto;
+            }
+            input[type='text'] {
+                margin-bottom: 10px;
+            }
+        }
+        .block-bottom-foot {
+            text-align: center;
+            .copyright {
+                float: none;
+            }
+            .social {
+                margin-top: 25px;
+                float: none;
+                li {
+                    float: none;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 759px) {
+    .width {
+        padding: 0 10px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    header {
+        .phone {
+            float: left;
+        }
+        .title-header {
+            padding: 60px 0;
+            .choose {
+                font-size: 30px;
+            }
+        }
+        .logo {
+            float: left;
+        }
+        .item {
+            margin: 0 auto;
+        }
+        .navbar-default .nav-head {
+            padding-left: 20px;
+            li a {
+                text-align: left;
+            }
+        }
+        a {
+            font-size: 12px;
+        }
+    }
+    .wrap-about {
+        padding: 30px 0;
+        .about-text {
+            padding: 0;
+        }
+    }
+
+    .wrap-features {
+        padding: 30px 0;
+        position: relative;
+        .block-features {
+            padding: 0;
+            .features {
+                .text-features {
+                    font-size: 12px;
+                }
+                .img-features {
+                    width: 15%;
+                }
+                .text-part {
+                    width: 85%;
+                }
+            }
+            .block-features-left {
+                text-align: left;
+                width: 100%;
+                .text-part {
+                    padding-right: 10px;
+                    order: 2;
+                }
+                .img-features {
+                    order: 1;
+                }
+            }
+            .logo-features {
+                position: absolute;
+                z-index: 10;
+                width: 20%;
+                top: 0;
+                left: 0;
+            }
+            .block-features-right {
+                width: 100%;
+                padding-left: 0;
+                .text-part {
+                    padding-left: 10px;
+                }
+            }
+        }
+        .boost-business {
+            .text-boost {
+                font-size: 13px;
+                text-align: center;
+                float: none;
+                padding: 0;
+            }
+            .button {
+                float: none;
+                margin-top: 20px;
+                padding: 0;
+                a {
+                    padding: 5px 25px;
+                }
+            }
+        }
+
+    }
+
+    .wrap-projects {
+        padding: 30px 0;
+        .block-projects {
+
+            .banking {
+                width: 100%;
+                @include flexbox;
+                margin: 0 auto;
+                max-width: 749px;
+                .img-banking {
+                    width: 50%;
+                    .button-small{
+                        left: 10px;
+                        top: 10px;
+                    }
+                }
+
+                .text-block-project {
+                    width: 50%;
+                    padding: 0 5px;
+                    h3{
+                        padding: 5px 0 10px;
+                        font-size: 14px;
+                    }
+                    .text-project{
+                        font-size: 12px;
+                        padding: 0;
+                        line-height: 21px;
+                    }
+                }
+            }
+            .real-estate {
+                width: 100%;
+                padding: 0;
+                margin-top: 20px;
+                .estate-carousel {
+                    width: auto;
+                    max-width: 749px;
+                    margin: 0 auto;
+                }
+                .text-block-project {
+                    width: auto;
+                    max-width: 749px;
+                    margin: 0 auto;
+                    padding: 5px;
+                    h3{
+                        padding: 5px 0 10px;
+                        font-size: 16px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .wrap-services {
+        padding: 60px 0;
+        .block-services {
+            padding: 0;
+            .service {
+                width: 100%;
+                margin-bottom: 20px;
+                &:last-child {
+                    margin-top: 25px;
+                }
+                &:first-child {
+                    padding-right: 20px;
+                }
+                .text-service {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .wrap-testimonials{
+        padding: 0 0 0 30px;
+        .back-quote {
+            padding: 0;
+            background: inherit;
+            .text-testimonials {
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .wrap-contact {
+        padding: 30px 0;
+        .block-contact {
+            .contact{
+                width: 100%;
+            }
+            .icon-email, .icon-call, .icon-career {
+                text-align: center;
+                margin: 0 0 20px 0;
+
+            }
+            .icon-email:before, .icon-call:before, .icon-career:before {
+                margin: 0 auto;
+
+            }
+            .text-contact {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .wrap-blog {
+        padding: 30px 0;
+        .page-left {
+            img{
+                display: none;
+            }
+            width: 100%;
+            .text-blog {
+                line-height: 28px;
+                padding: 10px ;
+            }
+        }
+        .page-right {
+            margin-top: 20px;
+            width: 100%;
+            .text-blog {
+                line-height: 28px;
+                padding: 10px ;
+            }
+        }
+    }
+
+    footer {
+        .block-foot {
+            padding-bottom: 50px;
+            .logo-foot, .navigation, .industry, .newsletter {
+                width: 100%;
+                padding: 0;
+                text-align: center;
+                h3 {
+                    margin: 0 0 25px 0;
+                }
+            }
+            .navigation, .industry {
+                margin-top: 20px;
+                ul {
+                    li {
+                        display: inline-block;
+                        padding-right: 25px;
+                        a {
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+            }
+            .newsletter {
+                margin-top: 25px;
+            }
+
+            form input[type='button'] {
+                display: block;
+                margin: 0 auto;
+            }
+            input[type='text'] {
+                margin-bottom: 10px;
+            }
+        }
+        .block-bottom-foot {
+            text-align: center;
+            .copyright {
+                float: none;
+            }
+            .social {
+                margin-top: 25px;
+                float: none;
+                li {
+                    float: none;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+}

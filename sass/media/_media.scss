@@ -492,7 +492,8 @@
         padding: 30px 0;
         .block-contact {
             .contact{
-                width: 100%;
+                width: 80%;
+                margin:0 auto;
             }
             .icon-email, .icon-call, .icon-career {
                 text-align: center;
@@ -500,7 +501,7 @@
 
             }
             .icon-email:before, .icon-call:before, .icon-career:before {
-                margin: 0 auto;
+                margin: 10px;
 
             }
             .text-contact {

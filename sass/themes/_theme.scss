@@ -16,7 +16,7 @@ header {
 }
 
 h2 {
-    color: #343a3b;
+    color: $primary-title-color;
 }
 
 .wrap-features {
@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-    color: #343a3b;
+    color: $primary-title-color;
 
 }
 
@@ -74,7 +74,7 @@ h3 {
         color: #343a3b;
     }
     h3 {
-        color: #343a3b;
+        color: $primary-title-color;
     }
 }
 
